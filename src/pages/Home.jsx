@@ -1,4 +1,7 @@
 import React from 'react';
+import Cook from '../assets/img/cook.jpg';
+import Left from '../assets/img/left.svg';
+import Right from '../assets/img/right.svg';
 
 class Home extends React.Component {
     render() {
@@ -68,7 +71,7 @@ class Home extends React.Component {
                     </div>
 
                     <div className="cookimg">
-                        <img src="../assets/img/cook.jpg" className="cook" alt="" />
+                        <img src= {Cook} className="cook" alt="" />
                     </div>
 
                 </div>
@@ -82,7 +85,7 @@ class Home extends React.Component {
 
                     <div className="carousel">
                         <button className="carouselButtonLeft">
-                            <img src="../assets/img/left.svg" alt="" />
+                            <img src={Left} alt="" />
                         </button>
 
                         <div className="carouselTrackContainer">
@@ -119,7 +122,7 @@ class Home extends React.Component {
                         </div>
 
                         <button className="carouselButtonRight">
-                            <img src="../assets/img/right.svg" alt="" />
+                            <img src={Right} alt="" />
                         </button>
                     </div>
 

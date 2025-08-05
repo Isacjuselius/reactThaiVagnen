@@ -1,4 +1,5 @@
 import React from 'react';
+import Video from '../assets/vid/video.mp4';
 
 class OmOss extends React.Component {
     render() {
@@ -11,7 +12,7 @@ class OmOss extends React.Component {
                 </p>
             </div>
 
-               <video controls src ="../assets/vid/video.mp4" class = "video"></video>
+               <video controls src ={Video} class = "video"></video>
             
     
         </div>
