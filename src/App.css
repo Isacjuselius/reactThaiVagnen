@@ -84,6 +84,14 @@ nav a{
 
 }
 
+.hovered {
+  display: inline-block;  
+  color: rgba(72, 86, 51, 0.5);
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+
+
 
 /**
     First section on homepage
